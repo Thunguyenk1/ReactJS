@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinh Vien</title>
+</head>
+<body>
+    <script>
+        var Student = function(){
+            this.fullname
+            this.age
+            this.address
+            this.email
+            this.phoneNumber
+
+            this.input = function() {
+                this.fullname = prompt('Nhap ten: ')
+                this.age = prompt('Nhap tuoi: ')
+                this.address = prompt('Nhap dia chi: ')
+                this.email = prompt('Nhap email: ')
+                this.phoneNumber = prompt('Nhap so dien thoai: ')
+            }
+
+            this.display = function() {
+                console.log(`Ten: ${this.fullname}, tuoi: ${this.age}, dia chi: ${this.address}, email: ${this.email}, so dien thoai: ${this.phoneNumber}`)
+            }
+        }
+
+        var stdA = new Student()
+        var stdB = new Student()
+
+        stdA.input()
+        stdA.display()
+
+        stdB.input()
+        stdB.display()
+    </script>
+</body>
+</html>
