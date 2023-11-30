@@ -1,0 +1,27 @@
+npx create-react-app file//tạo file bằng nodejs
+
+cd file//để vào file đó
+
+npm run build //build file
+
+npm i react-router-dom//cài đặt thư viện router
+
+npm install react-bootstrap bootstrap//tạo bootstrap
+	
+	import "bootstrap/dirt/css/bootstrap.css"
+	import "bootstrap/dirt/js/bootstrap.js"
+
+npm install express//cài expressjs (backend)
+
+npm install --save-dev nodemon //cài đặt nodemon
+	"star" : "nodemon index.js"
+
+npm start//chạy chương trình
+
+taskkill -F -IM node.exe//hủy lệnh npm start
+
+MongoDB Community Server Download
+
+npm install antd //cài ant.design
+
+npm install @reduxjs/toolkit
