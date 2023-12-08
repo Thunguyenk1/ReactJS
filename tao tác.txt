@@ -25,3 +25,5 @@ MongoDB Community Server Download
 npm install antd //cài ant.design
 
 npm install @reduxjs/toolkit
+
+npm  i pug//thư viện pug
